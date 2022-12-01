@@ -1,0 +1,39 @@
+.loginForm {
+    min-width: 320px;
+    padding: 48px 40px;
+    box-shadow: 2px 4px 10px rgba(122, 116, 116, 0.68);
+}
+.loginForgot {
+    float: right;
+}
+.ant-col-rtl .loginForgot {
+    float: left;    
+}
+.loginButton {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .title { 
+        text-align: center;
+        img {
+            width: 66px;
+        }
+        h1 {
+            font-size: 32px;
+            margin: 15px 0 24px;
+            color: #1890ff;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+    }
+}
+
