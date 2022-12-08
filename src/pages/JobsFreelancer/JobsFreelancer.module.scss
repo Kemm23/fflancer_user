@@ -1,0 +1,21 @@
+.container {
+    max-width: 100rem;
+    margin: auto;
+    h1 {
+        margin-bottom: 3rem;
+        padding-top: 3rem ;
+    }
+    h2 {
+        margin-bottom: 1rem;
+    }
+    .btn {
+        background-color: orange;
+        width: 20rem;
+        height: 4rem;
+    }
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

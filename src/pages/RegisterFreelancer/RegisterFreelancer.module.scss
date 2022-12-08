@@ -1,0 +1,41 @@
+.registerForm {
+    margin-top: 30rem;
+    min-width: 100rem;
+    padding: 60px 40px;
+    box-shadow: 2px 4px 10px rgba(122, 116, 116, 0.68);
+}
+.registerForgot {
+    float: right;
+}
+.ant-col-rtl .registerForgot {
+    float: left;    
+}
+.registerButton {
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: orange;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .title { 
+        text-align: center;
+        img {
+            width: 66px;
+        }
+        h1 {
+            font-size: 32px;
+            margin: 15px 0 24px;
+            color: orange;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+    }
+}
+

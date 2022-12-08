@@ -1,0 +1,34 @@
+.container {
+    max-width: 100rem;
+    margin: auto;
+    h1 {
+        margin-bottom: 3rem;
+        padding-top: 3rem ;
+    }
+    h2 {
+        margin-bottom: 3rem
+    }
+    .ffItem {
+        display: flex;
+        font-size: 1.4rem;
+    }
+    .statusJob {
+        padding: 2rem;
+        border: 1px solid #eee;
+        box-shadow: 2px 4px 10px #eee;
+        a {
+            text-decoration: underline;
+        }
+    }
+    .btnDownload {
+        margin-top: 1rem;
+        background-color: green;
+        color: white;
+    }
+    .btnGetJob {
+        background-color: orange;
+        width: 100%;
+        color: white;
+        margin-bottom: 2rem;
+    }
+}

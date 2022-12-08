@@ -1,10 +1,9 @@
 import { Navigate, Outlet } from "react-router-dom";
-import storage from "~/until/storage";
+import storage from "~/untils/storage";
 
 function PrivateRoutes() {
-  const isAuth = Array.isArray(storage.get());
+  const isAuth = !Boolean(storage.getToken())
   return isAuth ? <Navigate to="/login" /> : <Outlet />;
-  
 }
 
 export default PrivateRoutes;

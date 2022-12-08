@@ -4,19 +4,19 @@ import "./index.css";
 import App from "~/App";
 import reportWebVitals from "./reportWebVitals";
 import { Globalstyle } from "~/components/Globalstyle";
+import { BrowserRouter as Router } from 'react-router-dom'
 import  store  from "~/store";
 import { Provider } from "react-redux";
-import { BrowserRouter as Router } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-      <Provider store={store}>
-        <Router>
-          <Globalstyle>
-            <App />
-          </Globalstyle>
-        </Router>
-      </Provider>
+        <Provider store={store}>
+          <Router>
+            <Globalstyle>
+              <App />
+            </Globalstyle>
+          </Router>
+        </Provider>
 );
 
 reportWebVitals();

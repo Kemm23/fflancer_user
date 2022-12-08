@@ -1,0 +1,15 @@
+.container {
+    max-width: 100rem;
+    margin: auto;
+    h1 {
+        margin-bottom: 3rem;
+        padding-top: 3rem ;
+    }
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
