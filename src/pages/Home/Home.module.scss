@@ -1,4 +1,40 @@
-.content {
-    font-size: 3rem ;
-    text-align: center;
+.container {
+    max-width: 100rem;
+    margin: 10rem auto 0;
+    h1 {
+        color: orange;
+        font-size: 8rem;
+        margin-bottom: 2rem;
+    }
+    p {
+        font-size: 28px;
+        color: #5c4e37;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    img {
+        margin-top: 5rem;
+        margin-left: 5rem;
+        width: 40rem;
+    }
+    .wrapperSearch{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search{
+        padding: 1rem;
+        color: black;
+        width: 60%;
+    }
+    .btnSearch {
+        background-color: orange;
+        color: white;
+        padding: 2rem 3rem;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
 }

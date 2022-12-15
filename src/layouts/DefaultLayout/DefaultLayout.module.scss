@@ -21,6 +21,11 @@
             margin: 0 8px;
         }
     }
+    .nav {
+        background-color: transparent;
+        border: none;
+        color: white;
+    }
 }
 
 .container {
@@ -28,11 +33,7 @@
     margin-bottom: 6.4rem;
 }
 
-.nav {
-    background-color: transparent;
-    border: none;
-    color: white;
-}
+
 
 .footer {
     background-color: black;
